@@ -31,8 +31,13 @@ return [
     'disks' => [
 
         'local' => [
-            'driver' => 'local',
+            'driver' => 'local', // default
             'root' => storage_path('app'),
+        ],
+
+        'home' => [
+            'driver' => 'local', //custom
+            'root' => '/home/fabien/Bureau/Backup',
         ],
 
         'public' => [
