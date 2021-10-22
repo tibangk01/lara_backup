@@ -40,6 +40,11 @@ return [
             'root' => '/home/fabien/Bureau/Backup',
         ],
 
+        // 'dropbox' => [
+        //     'driver' => 'dropbox',
+        //     'authorization_token' => env('DROPBOX_AUTH_TOKEN'),
+        // ],
+
         'public' => [
             'driver' => 'local',
             'root' => storage_path('app/public'),
